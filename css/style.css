@@ -1,6 +1,7 @@
 :root {
-    --orange: var(#FF9614);
-    --violet: var(#7C69A4);
+    --orange: #FF9614;
+    --violet: #7C69A4;
+    --dark-violet: #4E3969;
 }
 
 /* RESET RULES  */
@@ -55,7 +56,6 @@ html {
     width: calc(100% / 5);
 }
 
-
 .button {
     font-size: 15px;
     line-height: 30px;
@@ -68,4 +68,8 @@ html {
 .nav-title {
     font-family: "Nerko One", cursive;
     font-size: 45px;
+    color: var(--orange);
+    display: block;
+    text-align: center;
+    padding: 20px;
 }

@@ -6,17 +6,17 @@
 } 
 
 /* MOBILE  */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
 }
 
 /* TABLET  */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     
     }
 
 
 /* LARGE DEVICES  */
-@media (max-width: 1160px) {
+@media (min-width: 992px) {
 
 }
