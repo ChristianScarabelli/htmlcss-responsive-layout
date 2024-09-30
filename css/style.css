@@ -1,0 +1,71 @@
+:root {
+    --orange: var(#FF9614);
+    --violet: var(#7C69A4);
+}
+
+/* RESET RULES  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* LAYOUT  */
+
+.container-fluid {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-4 {
+	width: calc(4 * 100% / 12);
+}
+
+.col-20 {
+    width: calc(100% / 5);
+}
+
+
+.button {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 15px 30px;
+    border-radius: 999px;
+}
+
+/* NAVBAR  */
+
+.nav-title {
+    font-family: "Nerko One", cursive;
+    font-size: 45px;
+}

@@ -1,0 +1,22 @@
+/* MEDIA QUERIES  */
+/* MOBILE FIRST  */
+
+.container {
+    max-width: 100%;
+} 
+
+/* MOBILE  */
+@media (max-width: 480px) {
+
+}
+
+/* TABLET  */
+@media (max-width: 768px) {
+    
+    }
+
+
+/* LARGE DEVICES  */
+@media (max-width: 1160px) {
+
+}
