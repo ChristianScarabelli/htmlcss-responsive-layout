@@ -18,6 +18,19 @@
     .banner, .banner-img {
         display: none;
     }
+
+    footer .col-6 {
+        width: 100%;
+    }
+
+    .col-6.address {
+        text-align: center;
+    }
+
+    footer .col-6.links ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 /* TABLET  */
@@ -38,6 +51,23 @@
         width: 50%;
         float: left;
         padding: 20px 10px 10px 0px;
+    }
+
+    footer .col-6 {
+        width: 100%;
+        padding: 0px 20px 40px 20px;
+    }
+
+    .col-6.address {
+        text-align: center;
+    }
+
+    .col-6.address p {
+        padding: 10px 0px 5px 0px;
+    }
+
+    footer .col-6.links ul {
+        justify-content: center;
     }
 
 }

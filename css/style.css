@@ -195,10 +195,21 @@ footer {
     font-size: 12px;
 }
 
+footer .row {
+    align-items: center;
+    justify-content: space-between;
+} 
+
 .col-6 {
     padding: 20px;
 }
 
 footer .col-6 li {
     text-decoration: underline;
+    padding: 0px;
+}
+
+footer .col-6.links ul {
+    display: flex;
+    gap: 25px;
 }
