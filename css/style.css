@@ -5,6 +5,9 @@
     --grey: #999999;
     --light-grey: #F6F5F3;
     --white: white;
+    --light-blue: #1A77F3;
+    --magenta: #DE3D78;
+    --red: #E62222;
 }
 
 /* RESET RULES  */
@@ -65,11 +68,19 @@ li {
     width: calc(100% / 5);
 }
 
-.button {
+i {
     font-size: 15px;
     line-height: 30px;
-    padding: 15px 30px;
+}
+
+.button {
+    padding: 15px 20px;
     border-radius: 999px;
+    background-color: var(--white);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 /* NAVBAR  */
@@ -122,4 +133,19 @@ main {
     padding: 40px;
 }
 
+.row.social-bar {
+    padding: 40px 0px;
+    flex-wrap: nowrap;
+}
 
+.fa-facebook, .fa-twitter {
+    color: var(--light-blue);
+}
+
+.fa-instagram {
+    color: var(--magenta);
+}
+
+.fa-pinterest, .fa-youtube {
+    color: var(--red);
+}
