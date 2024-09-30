@@ -11,6 +11,12 @@
         display: none;
     }
 
+    .hero-video {
+        width: 100%;
+        display: block;
+        min-height: 400px;
+    }
+
     .social-name {
         display: none;
     }
@@ -27,9 +33,14 @@
         text-align: center;
     }
 
+    .col-6.address p {
+        padding-top: 10px;
+    }
+
     footer .col-6.links ul {
         justify-content: center;
         flex-wrap: wrap;
+        padding-bottom: 20px;
     }
 }
 
@@ -45,6 +56,12 @@
 
     .hero-card-list ul > li {
         display: inline-block;
+    }
+
+    .hero-video {
+        width: 100%;
+        display: block;
+        min-height: 500px;
     }
 
     .presentation-img {
