@@ -2,6 +2,9 @@
     --orange: #FF9614;
     --violet: #7C69A4;
     --dark-violet: #4E3969;
+    --grey: #999999;
+    --light-grey: #F6F5F3;
+    --white: white;
 }
 
 /* RESET RULES  */
@@ -22,11 +25,16 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 html {
     font-family: "Montserrat", sans-serif;
+    line-height: 15px;
+}
+
+li {
+    padding: 12px 40px;
 }
 
 /* LAYOUT  */
@@ -37,6 +45,7 @@ html {
 
 .container {
     margin: 0 auto;
+    padding: 10px 20px;
 }
 
 .row {
@@ -73,3 +82,44 @@ html {
     text-align: center;
     padding: 20px;
 }
+
+/* HERO  */
+
+main {
+    background-color: var(--light-grey);
+}
+
+.food-type-title {
+    color: var(--grey);
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+
+.recipe-title {
+    color: var(--dark-violet);
+    font-size: 25px;
+    padding: 10px 0px 30px 0px;
+}
+
+.hero-img {
+    display: block;
+}
+
+.hero-card-list {
+    background-color: var(--white);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-card-list ul:last-child {
+    padding-bottom: 40px;
+}
+
+.card-list-title {
+    padding: 40px;
+}
+
+
