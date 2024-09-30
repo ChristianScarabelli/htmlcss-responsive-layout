@@ -14,7 +14,7 @@
     .hero-video {
         width: 100%;
         display: block;
-        min-height: 400px;
+        aspect-ratio: 2 / 1;
     }
 
     .social-name {
@@ -61,7 +61,7 @@
     .hero-video {
         width: 100%;
         display: block;
-        min-height: 500px;
+        aspect-ratio: 2 / 1;
     }
 
     .presentation-img {
